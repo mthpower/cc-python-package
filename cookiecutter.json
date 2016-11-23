@@ -1,0 +1,10 @@
+{
+  "full_name": "Matthew Power",
+  "email": "matthew@mthpower.uk",
+  "project_name": "Clock",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "py_namespace": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+  "project_short_description": "Prints the time in UTC to stdout.",
+  "project_homepage": "https://github.com/mthpower/clock",
+  "version": "0.1.0"
+}
