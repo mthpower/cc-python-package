@@ -22,7 +22,7 @@ Quickstart
 
 Prerequisites:
 
-* Python == 3.5
+* Python 3
 
 Install cookiecutter:
 

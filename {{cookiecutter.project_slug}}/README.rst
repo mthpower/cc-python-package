@@ -11,6 +11,11 @@
 Quickstart
 ----------
 
+Prerequisites:
+
+* Python == 3.5
+* Docker
+
 A Makefile is provided with common tasks::
 
     $ make help

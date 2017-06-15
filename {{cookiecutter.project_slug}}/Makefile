@@ -15,7 +15,7 @@ help:
 .env:
 	python3 -m venv .env --clear
 	$(pip) install --upgrade pip
-	$(pip) install --upgrade wheel setuptools tox pip-tools
+	$(pip) install --upgrade wheel setuptools tox tox-virtualenv-no-download isort virtualenv
 
 clean:
 	rm -rf build/
@@ -32,7 +32,7 @@ lint: .env
 	$(tox) -e lint
 
 isort: .env
-	$(tox) -e isort
+	$(isort) -rc {{cookiecutter.py_namespace}} tests
 
 test: .env
 	$(tox)
